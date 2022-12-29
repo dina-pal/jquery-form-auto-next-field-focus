@@ -1,0 +1,20 @@
+.active_field{
+    border-color: #0c69cc;
+}
+.active_field:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #0c69cc;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0 123 255 / 25%);
+}
+
+input.active_field[type="radio"] {
+    border-radius: 50%;
+}
+select option {
+    padding: 0 10px !important;
+}
+select::-webkit-scrollbar {
+    display: none;
+}
